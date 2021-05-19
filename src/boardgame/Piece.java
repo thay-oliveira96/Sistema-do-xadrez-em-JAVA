@@ -4,7 +4,7 @@ public class Piece {
 	protected Position position;
 	private board Board;
 	public Piece(board board) {
-		Board = board;
+		this.Board = board;
 		position = null;
 	}
 	protected board getBoard() {
